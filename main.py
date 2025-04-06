@@ -103,7 +103,7 @@ if __name__ == '__main__':
         
         result = list(set(ll) & set(addresses))
         if len(result)>0:
-            file=open("file2.txt", "a") 
+            file=open("output.txt", "a") 
             file.write("=====================================\n")
             file.write(" ".join(addresses)+"\n")
             file.write("Private Key --> "+key.private_hex+"\n")
