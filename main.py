@@ -4,7 +4,7 @@ from bitcoinlib.keys import HDKey,Key
 import mnemonic as mc
 from bitcoinlib.wallets import Wallet,WalletKey
 import time
-from ll import ll
+from add_list import ll
 from bitcash import *
 #from bitcash.cashaddress import Address
 #from bitcash.crypto import ripemd160_sha256
